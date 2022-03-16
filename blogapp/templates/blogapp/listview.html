@@ -1,3 +1,5 @@
+<html>
+<body>
 <form method="post">
     {%csrf_token %}
     <H2> Search Blog Here</H2>
@@ -10,3 +12,5 @@
 <a href = "{% url 'blog' _id=data.id %}">Read More</a>
 <hr/>
 {% endfor %}
+</html>
+</body>
